@@ -14,20 +14,19 @@ Project Deliverables
 
 1. Create Category and Subcategory DataFrames
 
-Extract and transform 'crowdfunding.xlsx' data to generate 'category' and 'subcategory' DataFrames. Export these as 'category.csv' and 'subcategory.csv', respectively.
+    Extract and transform 'crowdfunding.xlsx' data to generate 'category' and 'subcategory' DataFrames. Export these as 'category.csv' and 'subcategory.csv' respectively.
 
 2. Create Campaign DataFrame
 
-Transform 'crowdfunding.xlsx' data to create a 'campaign' DataFrame with specific columns and data types. Export as 'campaign.csv'.
+    Transform 'crowdfunding.xlsx' data to create a 'campaign' DataFrame with specific columns and data types. Export as 'campaign.csv'.
 
 3. Create Contacts DataFrame
 
-Choose between Python dictionary methods or regular expressions to extract and transform 'contacts.xlsx' data. Generate a 'contacts' DataFrame and export as 'contacts.csv'.
+    Choose between Python dictionary methods or regular expressions to extract and transform 'contacts.xlsx' data. Generate a 'contacts' DataFrame and export as 'contacts.csv'.
 
 4. Create Crowdfunding Database
 
-Sketch an Entity-Relationship Diagram (ERD) using QuickDBD. Create a PostgreSQL schema ('crowdfunding_db_schema.sql') based on the ERD. Set up a new 'crowdfunding_db' database, create tables, and import CSV data into respective tables.
-
+    Sketch an Entity-Relationship Diagram (ERD) using QuickDBD. Create a PostgreSQL schema ('crowdfunding_db_schema.sql') based on the ERD. Set up a new 'crowdfunding_db' database, create tables, and import CSV data into respective tables.
     * Utilize Pandas functions (str.split(), pd.to_numeric(), pd.to_datetime()) for data manipulation.
     * Follow the provided instructions and document progress.
     * Refer to the Pandas documentation for DataFrame creation and manipulation.
