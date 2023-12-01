@@ -10,7 +10,7 @@ contacts
 contact_id PK INT
 first_name VARCHAR(10)
 last_name VARCHAR(10)
-email VARCHAR (255)
+email VARCHAR(255)
 
 subcategory
 -
@@ -19,8 +19,8 @@ subcategory VARCHAR(20)
 
 campaingn
 -
-cf-id INT PK
-contact_id INT FK >- contacts.contact_id
+cf_id INT PK
+contact_id INT FK - contacts.contact_id
 company_name VARCHAR(60)
 description VARCHAR(150)
 goal float
